@@ -65,7 +65,7 @@ print(text)
 speak=gTTS(text,lang='en')
 speak.save('book_reading.mp3')
 
-#playing the converted text
+#playing the text audio
 playsound('book_reading.mp3')
-os.remove('book_reading.mp3')   #removing audio after playing it, it could be kept also. 
+os.remove('book_reading.mp3')   #removing audio after playing. 
 
